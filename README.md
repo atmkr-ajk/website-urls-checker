@@ -38,16 +38,16 @@ What happens
 * It will read URLs from URLs.xlsx, check each website for uptime, and attempt to take screenshots.
 * Progress and results are displayed live in the terminal.
 
-5️⃣ *Output*
+Output
 
-* A new folder will be automatically created with:
+ A new folder will be automatically created with:
 
    screenshots/
    - Success        # Screenshots of successfully loaded sites
    -  Error         # Screenshots of Errored sites
   errors.log        # Log file listing sites that failed or returned errors
 
-* Each run creates a separate timestamped folder.
+ Each run creates a separate timestamped folder.
 
 
 * Make sure you have a stable internet connection for accurate checks.
